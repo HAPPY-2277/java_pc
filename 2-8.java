@@ -19,6 +19,8 @@ public class Trace {
   Trace(Pos[] m_pos, String[] time){
 
   }
+  
+
   public void print() {
     for (Pos p : pos) {
       for (String t : time) {
